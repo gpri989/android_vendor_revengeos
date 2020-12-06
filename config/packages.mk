@@ -124,3 +124,6 @@ endif
 PRODUCT_PACKAGES += \
     charger_res_images
 
+# Flipendo
+PRODUCT_PACKAGES += \
+    Flipendo

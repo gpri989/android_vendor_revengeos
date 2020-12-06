@@ -80,6 +80,7 @@ PRODUCT_COPY_FILES += \
     vendor/revengeos/config/permissions/privapp-permissions-livedisplay-system_ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-livedisplay-system_ext.xml \
     vendor/revengeos/config/permissions/privapp-permissions-revengeos-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-revengeos-system.xml \
     vendor/revengeos/config/permissions/privapp-permissions-revengeos-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-revengeos-product.xml
+    vendor/revengeos/prebuilt/google/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020.xml
 
 # Hidden API whitelist
 PRODUCT_COPY_FILES += \
